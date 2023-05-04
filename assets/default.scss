@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  button {
+    cursor: pointer;
+    background: none;
+    border: none;
+    outline: none;
+  }
+
+  ul, ol {
+    list-style: none;
+    padding: 0;
+  }
+
+  input, textarea {
+    font-family: inherit;
+    color: inherit;
+    outline: none;
+  }
+}
+
+@font-face {
+  font-family: "Gilroy-Bold";
+  src: url("./fonts/Gilroy-Bold.ttf");
+  font-weight: 700;
+}
+@font-face {
+  font-family: "Gilroy-Semibold";
+  src: url("./fonts/Gilroy-Semibold.ttf");
+  font-weight: 600;
+}
+@font-face {
+  font-family: "MTS-Extended-Bold";
+  src: url("./fonts/MTSExtended-Medium.ttf");
+  font-weight: 500;
+}
+@font-face {
+  font-family: "MTS-Extended-Medium";
+  src: url("./fonts/MTSExtended-Bold.ttf");
+  font-weight: 700;
+}
